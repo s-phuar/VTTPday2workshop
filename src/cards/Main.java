@@ -1,14 +1,19 @@
 package cards;
 
-import cards.Cards;
-import cards.Deck;
-
-//testing 
 public class Main {
     public static void main(String[] args){
-        Deck deck = new Deck();
-        Cards card = deck.get(5);
 
-        System.out.printf("suite: %s, name: %s, value: %d\n", card.getSuite(), card.getRank(), card.getValue());
+        //generate entirely new deck object, does not need parameter inputs
+        Deck deck = new Deck();
+
+        Cards chosenCard = deck.get(51);
+        System.out.printf("suite: %s, name: %s, value: %d\n", chosenCard.getSuite(), chosenCard.getRank(), chosenCard.getValue());
+
+        //shuffled deck
+        deck.shuffleDeck();
+        Cards randomCard = deck.get(51);
+        System.out.printf("suite: %s, name: %s, value: %d\n", randomCard.getSuite(), randomCard.getRank(), randomCard.getValue());
+    
+
     }
 }

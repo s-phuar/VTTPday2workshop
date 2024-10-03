@@ -1,6 +1,5 @@
 package cars;
 
-import cars.Car;
 
 public class Main {
 
