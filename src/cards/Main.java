@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args){
 
         //generate entirely new deck object, does not need parameter inputs
-        Deck deck = new Deck();
+        DeckUpdated deck = new DeckUpdated();
 
         //new Cards object takes the chosen card at position 51, taken from fresh deck
         Cards chosenCard = deck.get(51);
