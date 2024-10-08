@@ -1,6 +1,8 @@
 package cards;
 
+
 public class Main {
+
     public static void main(String[] args){
 
         //generate entirely new deck object, does not need parameter inputs
@@ -16,6 +18,8 @@ public class Main {
         Cards randomCard = deck.get(51);
         System.out.printf("suite: %s, name: %s, value: %d\n", randomCard.getSuite(), randomCard.getRank(), randomCard.getValue());
     
+        //Cards randomCard2 = deck.get();
+
 
     }
 }

@@ -16,6 +16,8 @@ public class Deck {
     //this gets randomised by the shuffleDeck method
     protected Cards[] cards = new Cards[52];
 
+
+
     //Deck constructor with a zero input parameter signature
     //when you create the below deck object, you are in fact creating a Card[] array of card objects
     public Deck(){
@@ -32,6 +34,7 @@ public class Deck {
             }
         }
     }
+
 
     public void shuffleDeck(){
         Random random = new Random();
@@ -65,5 +68,6 @@ public class Deck {
     public Cards get(int pos){
         return this.cards[pos];
     }
+    
     
 }

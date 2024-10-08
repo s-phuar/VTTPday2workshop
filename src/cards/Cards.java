@@ -21,6 +21,12 @@ public class Cards {
     public String getRank(){return rank;}
     public int getValue(){return value;}
 
+    //Cards card1 = new Cards("Diamond", "Five", 5);
+
+    //Cards card2 = new Cards("Diamond", "Five", 5);
+    
+
+    
     //same as printf
     @Override
     public String toString(){
